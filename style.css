@@ -17,5 +17,27 @@ body{
     font-size: 60px;
     margin: 5px;
     cursor: pointer; /*Quando passar o mouse no quadrado mudar a mão do mouse*/
+    color: #eee;
+}
 
+.jogador  {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #eee;
+}
+
+.vencedor{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #eee;
+
+}
+
+button{
+    margin-top: 10px;
+    width: 100px;
+    height: 30;
+    background: #eee;
+    cursor: pointer;
 }
