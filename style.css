@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    text-align: center; /*Centralizar todo o conteudo do body*/
+}
+
+#titulo{
+    color: aliceblue;
+}
+
+.quadrado{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background: #eee;
+    display: inline-block; /* Tamanho dele todo*/
+    padding: 40px; /*Dentro do conteudo*/
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer; /*Quando passar o mouse no quadrado mudar a mão do mouse*/
+
+}
