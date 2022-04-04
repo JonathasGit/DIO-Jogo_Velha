@@ -13,7 +13,14 @@ function escolherQuadrado(id){ //função ao escolher o quadrado
     quadrado.style.color = '#000';
 
 
+//Verificar o jogador 
+if(jogador === 'X'){
+    jogador = 'O';
+} else{
+    jogador = 'X';
+}
 
+mudarJogador(jogador);
 
 }
 
