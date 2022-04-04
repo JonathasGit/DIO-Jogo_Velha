@@ -9,6 +9,13 @@ function escolherQuadrado(id){ //função ao escolher o quadrado
     console.log(id); // mostrar todos id dos quadrados
 
     var quadrado = document.getElementById(id); // vai receber  elemento HTML 
+
+    if(quadrado.innerHTML !== '-'){
+        alert('Quadrado já escolhido!!! Por gentileza, escolha outro!');
+        return;        
+    }
+
+
     quadrado.innerHTML = jogador; //trocar o texto do html 
     quadrado.style.color = '#000';
 
